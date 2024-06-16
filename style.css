@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: hsl(0, 0%, 8%);
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: hsl(0, 0%, 12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  width: 320px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px;
+  color: aliceblue;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container img {
+  width: 26%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.name p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+
+.location p {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 450;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 25px;
+}
+
+.description p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: hsl(0, 2%, 84%);
+  margin-bottom: 15px;
+}
+
+.links {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 2%, 84%);
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+  width: 250px;
+  border-radius: 7px;
+}
